@@ -1,0 +1,153 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+#one {
+    float: left;
+    margin-left: 20px;
+    background-color: #fffb00;
+}
+
+#two {
+    float: left;
+    margin-left: 20px;
+    background-color: #005707;
+}
+
+#three {
+    float: left;
+    margin-left: 20px;
+    background-color: #0044ff;
+}
+
+.title {
+    width: 50px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    position: absolute;
+    right: 0;
+}
+
+#grits {
+    background-color: rgb(247, 2, 2);
+    color: #fff;
+    font-size: 1.5em;
+    width: 25%;
+    text-align: center;
+    padding: 7.5px;
+}
+
+#eggs {
+    background-color: rgb(247, 133, 2);
+    color: #000;
+    font-size: 1.5em;
+    width: 25%;
+    text-align: center;
+    padding: 7.5px;
+}
+
+#bacon {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 251, 0);
+    font-size: 1.5em;
+    width: 25%;
+    text-align: center;
+    padding: 7.5px;
+}
+
+p {
+    width: 90%;
+    height: 150px;
+    padding: 9% 10% 10% 1%;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+}
+
+.yellow {
+    color: #000;
+}
+
+.green {
+    color:rgb(255, 255, 255);
+}
+
+.blue {
+    color:rgb(255, 255, 255);
+}
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+}
+
+/********** Desktop view only **********/
+@media (min-width: 992px) {
+    #one {
+        width: 30%;
+    }
+
+    #two {
+        width: 30%;
+    }
+
+    #three {
+        width: 30%;
+    }
+}
+
+/********** Tablet view only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #one {
+        width: 45%;
+    }
+
+    #two {
+        width: 45%;
+    }
+
+    #three {
+        width: 92.75%;
+    }
+}
+
+/********** Mobile view only **********/
+@media (max-width: 767px) {
+    #one {
+        width: 90%;
+    }
+
+    #two {
+        width: 90%;
+    }
+
+    #three {
+        width: 90%;
+    }
+}
