@@ -110,7 +110,7 @@ body {
     margin: 35px 0 0 -25px;
 }
 #nav-list {
-    visibility: show;
+    visibility: hidden;
 }
 #nav-list a {
     color: #003632;
@@ -119,11 +119,12 @@ body {
 #nav-list a:hover {
     background: #04c4b7;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+/* .navbar-header button.navbar-toggle {
+    touch-action: open;
     border: 1px solid #003632;
-}
+} */
 #collapse-nav {
-    display: show;
+    display: ;
 }
 .navbar-header button.navbar-toggle {
     margin-top: 15px;
