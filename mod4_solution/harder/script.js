@@ -18,9 +18,9 @@
       // console.log(firstLetter);
 
       if (firstLetter === "j") {
-          console.log(speakBye + " " + names[i]);
+          console.log(speakBye + names[i]);
       } else {
-          console.log(speakHello + " " + names[i]);
+          console.log(speakHello + names[i]);
       }
   }  
 }());
